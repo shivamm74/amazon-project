@@ -7,10 +7,11 @@
 
 .navbar {
     height :80px;
-    background-color:#232F3E;
+    background-color:#131A22;
     color: aliceblue;
     transition: all;
     display: flex;
+    justify-content: space-evenly;
 }
 .nav-logo {
     height: 80px;
@@ -24,9 +25,10 @@
     width : 60px;
     margin-left: 10px;
     margin-top: 10px;
+    filter: invert(1);
     
     background-repeat: no-repeat;
-    filter: invert(1);
+    color: rgb(168, 117, 23)
 }
 
 .border {
@@ -46,6 +48,7 @@
 .add-icon {
     display: flex;
     align-items: center;
+    color: aliceblue;
 }
 
 .address {
@@ -69,7 +72,7 @@
 
 }
 .navsearch:hover {
-    border: 2px solid orange;
+    border: 2px solid rgb(169, 120, 29);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -90,7 +93,7 @@
     justify-content: center;
     align-items: center;
     border-color: orange;
-    background-color: orange;
+    background-color: rgb(245, 174, 43);
     
     height:100%;
     width: 45px;
@@ -111,7 +114,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#232F3E;
+    background-color:#131A22;
     color: aliceblue;
     font-size: 1.2rem;
     margin-left: 10px;
@@ -209,4 +212,72 @@
 .cart:hover{
     border: 2px solid white;
 
+}
+
+.panel {
+    height : 42px;
+    width : 100%;
+    background-color: #232f3e;
+    display: flex;
+    
+    
+}
+
+.menu {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+     border: 2px solid transparent;
+}
+.menu:hover{
+    border: 2px solid white;
+}
+
+.fresh {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    margin-left: 20px;
+    
+    
+    border: 2px solid transparent;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: 200;
+
+}
+
+.fresh:hover{
+    border: 2px solid white;
+}
+
+.AMAZON-PAY {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-left:  auto;
+
+    border: 2px solid transparent;
+}
+
+.AMAZON-PAY:hover {
+    border :2px solid white
+}
+
+#pay {
+    font-size: 35px;
+    color:aliceblue
+}
+
+.date {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 24px;
 }
