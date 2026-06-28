@@ -281,3 +281,46 @@
     margin: auto;
     font-size: 24px;
 }
+
+
+
+.main {
+    background-image: url("amazon-banner.jpg");
+    background-size: cover;
+    width :100%;
+    height : 400px;
+    display :flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+
+.text-msg {
+    height: 40px;
+    width : 98vw;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 7px;
+    border: 2px solid black;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.text-msg:hover{
+    border: 3.4px solid black;
+}
+
+/* .shop-section {
+    display: flex;
+}
+
+.box {
+    height :100px;
+    width :100px;
+} */
