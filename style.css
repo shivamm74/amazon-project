@@ -12,6 +12,7 @@
     transition: all;
     display: flex;
     justify-content: space-evenly;
+    position: sticky;
 }
 .nav-logo {
     height: 80px;
@@ -219,6 +220,7 @@
     width : 100%;
     background-color: #232f3e;
     display: flex;
+    position: sticky;
     
     
 }
@@ -316,11 +318,68 @@
     border: 3.4px solid black;
 }
 
-/* .shop-section {
+.shop-section {
     display: flex;
+    background-color: #2776EA;
+    justify-content: space-evenly;
+    height: 400px;
 }
 
 .box {
     height :100px;
-    width :100px;
-} */
+    width :23%;
+    border : 2px solid black;
+    background-color: aliceblue;
+    height: 380px;
+    margin: 20px;
+    font-family: sans-serif;
+    
+
+
+    
+}
+
+.box5 {
+    height: 86%;
+    width :100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap :15px;
+}
+
+
+.box4 {
+    height :135px;
+    width : 110px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.fridge {
+    background-image: url(fridge.jpg);
+    background-size: cover;
+
+}
+
+.owen {
+    background-image: url(owen.jpg);
+    background-size: cover;
+
+}
+
+.washing-machine{
+    background-image: url(washing-machine.jpg);
+    background-size: cover;
+
+}
+
+.ac {
+    background-image: url(ac.jpg);
+    background-size: cover;
+}
